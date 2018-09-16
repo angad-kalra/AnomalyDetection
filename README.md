@@ -28,19 +28,27 @@ PCA measures the data based on the principle components instead of basis vectors
 reduction technique where projections of all data points is taken on vector that has unique representation for each point
 and maximizes variance.
 ### Algorithms implemented
-#### Supervised Learning algorithms
-##### 1. K-Nearest Neighbours
-The goal of our project is to build a system which will return the result whether the data is normal or an
-outlier/Anomaly. The main idea of kNN is to classify based on closet training data/examples of the feature
-space/dataset. That’s why it’s one of the main reason behind choosing kNN in our project as it classifies the data
-easily based on its neighbors’ value/properties.</br>
-**- Cross validation**</br>
-![image](https://user-images.githubusercontent.com/22276437/45594612-c34f2180-b952-11e8-99cf-7451e9729d65.png) </br>
-To prevent overfitting without the requirement of a large testing set, cross validation is a best technique. It is
-used to overcome the traditional process of partitioning the data into test data and training data in some ratio
-(usually 30/70 or 40/60).</br>
-##### 2. Multivariate Gaussian Model
-##### 3. Multi-layer perceptron
 #### Semi-supervised Learning algorithms
 ##### 1. One-class Support Vector Machine
+In our implementation, we have used Gaussian Radial Base Function (RBF).</br>
+**What is One Class SVM?**</br>
+Imagine a factory type of setting; heavy machinery under constant surveillance of some advanced system. The task of
+the controlling system is to determine when something goes wrong; the products are below quality, the machine
+produces strange vibrations or something like a temperature that rises. It is relatively easy to gather training data of
+situations that are OK; it is just the normal production situation. But on the other side, collection example data of a
+faulty system state can be rather expensive, or just impossible. If a faulty system state could be simulated, there is no
+way to guarantee that all the faulty states are simulated and thus recognized in a traditional two-class problem.
+To cope with this problem, one-class classification problems (and solutions) are introduced. By just providing the
+normal training data, an algorithm creates a (representational) model of this data. If newly encountered data is too
+different, according to some measurement, from this model, it is labeled as out-of-class.</br>
+![image](https://user-images.githubusercontent.com/22276437/45600303-5c138a80-b9af-11e8-902b-2eea0fc7a658.png)
+![image](https://user-images.githubusercontent.com/22276437/45600411-2d96af00-b9b1-11e8-89e8-ec42574a44bc.png)
 ##### 2. Eta One-class Support Vector Machine
+Eta One Class SVM is an approach that was introduced to tackle the challenge that outliers do significantly
+contribute to the decision boundary. It is more robust against the noise in the training datasets. It has an advantage of
+maintaining the sparsity of SVM solution.
+## Execution requirements and steps
+1. Python 2.6 and above (Python 2.7.5 using)</br>
+2. Using numpy, matplotlib, scipy, tensorflow, time, math, pandas and scipy third-party library</br>
+3. Just type "python XXX.py" XXX is the python file name.</br>
+4. The commented lines are the dubugging commands used for developing.</br>
