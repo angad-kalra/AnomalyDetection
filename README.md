@@ -16,21 +16,20 @@ numeric values for data uniformity for mathematical calculations.</br>
 The next step in pre-processing data is normalization of instances in order to avoid larger computational costs and
 scale the values in order to achieve efficient weights and values.
 ## Feature extraction
-**RandomForest-**</br>
+**RandomForest -**</br>
 RandomForest is a collection of decision trees where the dataset is divided randomly and each subset is fed
 to every decision tree. The trees fit the data and intuitively, each decision tree provides weights to features and vote
 the features according to their relevance and importance. The majority voted features among these are considered to
 be highly discriminating features amongst others.</br>
 RandomForests can compress very high amount of data and can deliver high quality models. As this uses a number of
 trees for data fitting, it is very quick to train.</br>
-**Principle component analysis-**</br>
+**Principle component analysis -**</br>
 PCA measures the data based on the principle components instead of basis vectors. It is a dimensionality
 reduction technique where projections of all data points is taken on vector that has unique representation for each point
 and maximizes variance.
 ### Algorithms implemented
 #### 1. One-class Support Vector Machine
 In our implementation, we have used Gaussian Radial Base Function (RBF).</br>
-**What is One Class SVM?**</br>
 Imagine a factory type of setting; heavy machinery under constant surveillance of some advanced system. The task of
 the controlling system is to determine when something goes wrong; the products are below quality, the machine
 produces strange vibrations or something like a temperature that rises. It is relatively easy to gather training data of
