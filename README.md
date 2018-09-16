@@ -41,7 +41,7 @@ normal training data, an algorithm creates a (representational) model of this da
 different, according to some measurement, from this model, it is labeled as out-of-class.</br>
 ![image](https://user-images.githubusercontent.com/22276437/45600303-5c138a80-b9af-11e8-902b-2eea0fc7a658.png)</br></br>
 The results are as follows: </br></br>
-![image](https://user-images.githubusercontent.com/22276437/45600411-2d96af00-b9b1-11e8-89e8-ec42574a44bc.png)  
+![image](https://user-images.githubusercontent.com/22276437/45600598-481e5780-b9b4-11e8-8eda-e805985e2b07.png)
 #### 2. Eta One-class Support Vector Machine
 Eta One Class SVM is an approach that was introduced to tackle the challenge that outliers do significantly
 contribute to the decision boundary. It is more robust against the noise in the training datasets. It has an advantage of
