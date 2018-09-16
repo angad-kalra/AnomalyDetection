@@ -41,7 +41,7 @@ To cope with this problem, one-class classification problems (and solutions) are
 normal training data, an algorithm creates a (representational) model of this data. If newly encountered data is too
 different, according to some measurement, from this model, it is labeled as out-of-class.</br>
 ![image](https://user-images.githubusercontent.com/22276437/45600303-5c138a80-b9af-11e8-902b-2eea0fc7a658.png)</br>
-![image](https://user-images.githubusercontent.com/22276437/45600411-2d96af00-b9b1-11e8-89e8-ec42574a44bc.png)
+![image](https://user-images.githubusercontent.com/22276437/45600411-2d96af00-b9b1-11e8-89e8-ec42574a44bc.png)  
 #### 2. Eta One-class Support Vector Machine
 Eta One Class SVM is an approach that was introduced to tackle the challenge that outliers do significantly
 contribute to the decision boundary. It is more robust against the noise in the training datasets. It has an advantage of
