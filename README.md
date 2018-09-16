@@ -3,7 +3,7 @@ A lot of work has been done in the field of anomaly detection especially in the 
 is difficult to identify these. </br>
 As a part of comparative analysis, I have implemented couple of algorithms on each dataset so as to come up with some modifications in parameters
 and conditions in order to optimize the classification model.</br>
-I implemented the work done in the following paper to enhance the performance of One-class Support Vector Machine on the datasets.</br>
+I implemented the work done in the following paper to enhance the performance of One-class Support Vector Machine on the datasets.</br>http://met.guc.edu.eg/Repository/Faculty/Publications/479/One-class-SVM_anomaly-detection.pdf </br>
 The datasets used in this project are KDD Unsupervised dataset (network intrusion detection) and Breast cancer
 dataset (Breast cancer diagnostics).</br>
 ## Data preprocessing
@@ -39,7 +39,6 @@ way to guarantee that all the faulty states are simulated and thus recognized in
 To cope with this problem, one-class classification problems (and solutions) are introduced. By just providing the
 normal training data, an algorithm creates a (representational) model of this data. If newly encountered data is too
 different, according to some measurement, from this model, it is labeled as out-of-class.</br>
-![image](https://user-images.githubusercontent.com/22276437/45600303-5c138a80-b9af-11e8-902b-2eea0fc7a658.png)</br></br>
 The results are as follows: </br></br>
 ![image](https://user-images.githubusercontent.com/22276437/45600598-481e5780-b9b4-11e8-8eda-e805985e2b07.png)
 #### 2. Eta One-class Support Vector Machine
