@@ -45,6 +45,10 @@ The results are as follows: </br></br>
 Eta One Class SVM is an approach that was introduced to tackle the challenge that outliers do significantly
 contribute to the decision boundary. It is more robust against the noise in the training datasets. It has an advantage of
 maintaining the sparsity of SVM solution.
+### Some other algorithms implemented
+#### 3. k-NN using k-d tree
+#### 4. Multi-variate gaussian model
+#### 5. Multi-layer perceptron
 ## Execution requirements and steps
 1. Python 2.6 and above (Python 2.7.5 using)</br>
 2. Using numpy, matplotlib, scipy, tensorflow, time, math, pandas and scipy third-party library</br>
